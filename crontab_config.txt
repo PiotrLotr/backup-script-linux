@@ -1,0 +1,4 @@
+# Automatization config for backup.sh script:
+# Execution 8 AM EVERY DAY:
+#
+# 0 8 * * * root ./backup.sh 

@@ -1,0 +1,13 @@
+# BACKUP AND RESTORING PROCEDURE
+#
+# Checking script efficiency:
+# 1. Check if in destination directory exist two files: 'date'-backup.tar file and 'date'-raport.txt file.
+# 2. Open .txt file and find affected in backup files.
+# 3. Unpack .tar archive using tar -xvf 'date'-backup.tar command and check the content of unpacked directory.
+# 4. Check if directory content is compatible with report.
+#
+# Restoring backup:
+# 1. Check script efficiency.
+# 2. Carry out manual backup of current content of /var/log
+# 3. Overwrite /var/log content of designated date into current /var/log using: yes | cp -rf /zzz/zzz/* /xxx/xxx formula
+# 4. Check the success of the operation.
